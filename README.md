@@ -16,14 +16,20 @@ JxH 2021 final submission - Deadlight team
 7. Right Click and Select "Set as default schema"
 
 ![image](https://user-images.githubusercontent.com/69025561/145685177-8f802f29-0173-4a88-abad-2d432fabde47.png)
+
+
 8. Select database and select the + button. Click on MySQL.
 
 
 ![image](https://user-images.githubusercontent.com/69025561/145685214-20d159bc-0f40-476b-bd50-124177f70451.png)
+
+
 9. Fill in the username and password as settings before. Fill the name of the database with the name set in step 4. Press Test connection, if Success, you are ready to go.
 
 
 ![image](https://user-images.githubusercontent.com/69025561/145685301-d82d0c64-68c4-4599-b136-38cf21fe88ac.png)
+
+
 10. Press run. After table created successfully, stop and come back to Application.Properties, change back `spring.jpa.hibernate.ddl-auto` value from `create` to `none`
 
 
